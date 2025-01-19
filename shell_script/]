@@ -1,0 +1,9 @@
+calc(){
+	#echo "second arg: $2"
+	a=$1
+	b=$2
+	echo "first arg: $a"
+	res=$((a+b))
+	return $res
+}
+echo "Res: `calc $@` "

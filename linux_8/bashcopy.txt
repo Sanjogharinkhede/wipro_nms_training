@@ -1,0 +1,273 @@
+ mkdir linux_8
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ ls
+NMS_Batch1/  linux_8/  local_nms_repo/
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ dir
+NMS_Batch1  linux_8  local_nms_repo
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ cd linux_8
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ ls
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ die
+bash: die: command not found
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ diir
+bash: diir: command not found
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ dir
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ man
+bash: man: command not found
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ man dir
+bash: man: command not found
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ ^C
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ ls -a
+./  ../
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ touch linux.txt
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ cat linux.txt
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ cat linux.txt
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ cat linux.txt
+show
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ cat >linux.txt
+55151
+yv
+75
+
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ cat linux.txt
+55151
+yv
+75
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ cat >>linux.txt
+fdvjnjk
+8787
+kjdsnf
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ cat linux.txt
+55151
+yv
+75
+fdvjnjk
+8787
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ mv linux.txt ../linux.txt
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ ls
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ cd ..
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ ls
+NMS_Batch1/  linux.txt  linux_8/  local_nms_repo/
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ mv linux.txt linux_8/linux.txt
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ ls
+NMS_Batch1/  linux_8/  local_nms_repo/
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ cd linux_8
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ ls
+linux.txt
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ mv linux.txt linuxrename.txt
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ ls
+linuxrename.txt
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ cat linuxrename.txt
+55151
+yv
+75
+fdvjnjk
+8787
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ cal
+bash: cal: command not found
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ logname
+hp
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date
+Thu Jan  9 11:33:31 IST 2025
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ cal
+bash: cal: command not found
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date %t
+date: invalid date ‘%t’
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date %T
+date: invalid date ‘%T’
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '%t'
+date: invalid date ‘%t’
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '%T'
+date: invalid date ‘%T’
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%T'
+11:34:16
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%t'
+
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%d'
+09
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%h'
+Jan
+@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date
+Thu Jan  9 11:33:31 IST 2025
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ cal
+bash: cal: command not found
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date %t
+date: invalid date ‘%t’
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date %T
+date: invalid date ‘%T’
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '%t'
+date: invalid date ‘%t’
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '%T'
+date: invalid date ‘%T’
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%T'
+11:34:16
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%t'
+
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%d'
+09
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%h'
+Jan
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ ^C
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ touch copyofbash
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ mv copyofbash bashcopy.txt
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ cls
+bash: cls: command not found
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%H'
+11
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%h'
+Jan
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%A'
+Thursday
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%R'
+11:38
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%r'
+11:38:23 AM
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%t'
+
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%y'
+25
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%s'
+1736402917
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%m'
+01
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%M'
+38
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%H %M'
+11 39
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ date '+%H %M %S'
+11 39 10

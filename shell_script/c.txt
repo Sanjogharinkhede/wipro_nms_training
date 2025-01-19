@@ -1,0 +1,304 @@
+ cd f:
+
+hp@DESKTOP-RILG1IE MINGW64 /f
+$ cd _wipro711
+bash: cd: _wipro711: No such file or directory
+
+hp@DESKTOP-RILG1IE MINGW64 /f
+$ ls
+'!qhlogs.doc'         MyProjects/                   fileHandle/
+'####Data'/          'Password 123.txt'            'java programs'/
+'#MyProject'/        'React 5-10-2024'/             oopclass/
+'#MyProject.zip'      Sanjog/                       oracle/
+'#VS_CODE_FILE'/     'System Volume Information'/   sql/
+'$RECYCLE.BIN'/       Testing/                      theme/
+ 10201_database.zip  'Udemy React'/                'web tech'/
+ 1Quiz/               WI/                          'webtech class'/
+ DumpStack.log.tmp    _wipro_711/                   webtechUmich/
+ J2ee/                api/                          wwwwwwwwwwwwwwww.sql
+ JavaLectures/        composer/                     xampp/
+
+hp@DESKTOP-RILG1IE MINGW64 /f
+$ cd _wipro_711
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ ls
+NMS_Batch1/  linux_8/  local_nms_repo/
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ cs linux_8
+bash: cs: command not found
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ cd linux_8
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ ls
+a.txt  bashcopy.txt  linuxrename.txt
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ id
+uid=197609(hp) gid=197609 groups=197609
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/linux_8
+$ cd ..
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ mkdir shell_script
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ touch hello.sh
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ ls
+NMS_Batch1/  hello.sh  linux_8/  local_nms_repo/  shell_script/
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ rm hello.sh
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ ls
+NMS_Batch1/  linux_8/  local_nms_repo/  shell_script/
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711
+$ cd shell_script
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ touch hello.sh
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ cat >>hello.sh
+echo "hello scripting"
+
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ cat hello.sh
+echo "hello scripting"
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+      640     549     640      25692  pty0      197609 09:39:08 /usr/bin/ps
+      548       1     548      29460  ?         197609 09:12:49 /usr/bin/mintty
+      549     548     549      27280  pty0      197609 09:12:49 /usr/bin/bash
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ ch
+bash: ch: command not found
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ pwd
+/f/_wipro_711/shell_script
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ dir
+hello.sh
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ ls -l
+total 1
+-rw-r--r-- 1 hp 197609 27 Jan 10 09:38 hello.sh
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ chmod 700 hello.sh
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ ls -l
+total 1
+-rw-r--r-- 1 hp 197609 27 Jan 10 09:38 hello.sh
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ chmod 777 hello.sh
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ ls -l
+total 1
+-rw-r--r-- 1 hp 197609 27 Jan 10 09:38 hello.sh
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ bash hello.sh
+hello.sh: line 1: unexpected EOF while looking for matching `"'
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ cat >>hello.sh
+echo 'ss'
+
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ cat hello.sh
+echo "hello scripting"
+echo 'ss'
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ bash hello.sh
+hello.sh: line 1: unexpected EOF while looking for matching `"'
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ bash hello.sh
+hello scripting
+ss
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ vi hello.sh
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ bash hello.sh
+hello scripting
+ss
+date
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ vi hello.sh
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ bash hello.sh
+hello scripting
+ss
+date
+Fri Jan 10 10:05:41 IST 2025
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ vi hello.sh
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ bash hello.sh
+hello scripting
+ss
+Fri Jan 10 10:08:31 IST 2025
+Fri Jan 10 10:08:32 IST 2025
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ bash -x hello.sh
++ echo 'hello scripting'
+hello scripting
++ echo ss
+ss
++ echo
++ date
+Fri Jan 10 10:08:40 IST 2025
++ date
+Fri Jan 10 10:08:40 IST 2025
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ vi hello.sh
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ bash -x hello.sh
++ echo 'hello scripting'
+hello scripting
++ echo ss
+ss
++ echo '\n'
++ date
+Fri Jan 10 10:09:29 IST 2025
++ date
+Fri Jan 10 10:09:29 IST 2025
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ bash hello.sh
+hello scripting
+ss
+Fri Jan 10 10:09:44 IST 2025
+Fri Jan 10 10:09:44 IST 2025
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ sh hello.sh
+hello scripting
+ss
+Fri Jan 10 10:10:07 IST 2025
+Fri Jan 10 10:10:08 IST 2025
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ help
+GNU bash, version 5.2.37(1)-release (x86_64-pc-msys)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec | -n signum | -sigs>
+ [ arg... ]                              let arg [arg ...]
+ [[ expression ]]                        local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]          logout [n]
+ bg [job_spec ...]                       mapfile [-d delim] [-n count] [-O or>
+ bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
+ break [n]                               printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
+ caller [expr]                           pwd [-LPW]
+ case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
+ cd [-L|[-P [-e]] [-@]] [dir]            readarray [-d delim] [-n count] [-O >
+ command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
+ compgen [-abcdefgjksuv] [-o option] [>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DEI]>  select NAME [in WORDS ... ;] do COMM>
+ compopt [-o|+o option] [-DEI] [name .>  set [-abefhkmnptuvxBCEHPT] [-o optio>
+ continue [n]                            shift [n]
+ coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgiIlnrtux] [name[=value>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                  suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid >  test [expr]
+ echo [-neE] [arg ...]                   time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [na>  times
+ eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argume>  true
+ exit [n]                                type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgiIlnrtux] name[=value>
+ false                                   ulimit [-SHabcdefiklmnpqrstuvxPRT] [>
+ fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
+ fg [job_spec]                           unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS-2; done
+ function name { COMMANDS ; } or name >  variables - Names and meanings of so>
+ getopts optstring name [arg ...]        wait [-fn] [-p var] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS-2; done
+ help [-dms] [pattern ...]               { COMMANDS ; }
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ help sh
+shift: shift [n]
+    Shift positional parameters.
+
+    Rename the positional parameters $N+1,$N+2 ... to $1,$2 ...  If N is
+    not given, it is assumed to be 1.
+
+    Exit Status:
+    Returns success unless N is negative or greater than $#.
+shopt: shopt [-pqsu] [-o] [optname ...]
+    Set and unset shell options.
+
+    Change the setting of each shell option OPTNAME.  Without any option
+    arguments, list each supplied OPTNAME, or all shell options if no
+    OPTNAMEs are given, with an indication of whether or not each is set.
+
+    Options:
+      -o        restrict OPTNAMEs to those defined for use with `set -o'
+      -p        print each shell option with an indication of its status
+      -q        suppress output
+      -s        enable (set) each OPTNAME
+      -u        disable (unset) each OPTNAME
+
+    Exit Status:
+    Returns success if OPTNAME is enabled; fails if an invalid option is
+    given or OPTNAME is disabled.
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$
+ vi shell.sh
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ sh -shell.sh
+sh: -.: invalid option
+
+hp@DESKTOP-RILG1IE MINGW64 /f/_wipro_711/shell_script
+$ sh shell.sh
+name
+n
+salary
+3
+name: n
+sal: 3
+
